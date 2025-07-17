@@ -9,6 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.example.spring3_jwt_auth.config.JwtService;
 import com.example.spring3_jwt_auth.dto.LoginRequest;
 import com.example.spring3_jwt_auth.dto.LoginResponse;
 import com.example.spring3_jwt_auth.dto.RegisterRequest;

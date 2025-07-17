@@ -1,4 +1,4 @@
-package com.example.spring3_jwt_auth.service;
+package com.example.spring3_jwt_auth.config;
 
 import java.text.ParseException;
 import java.util.Date;
@@ -7,8 +7,6 @@ import java.util.stream.Collectors;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import com.example.spring3_jwt_auth.config.JwtConfig;
-import com.example.spring3_jwt_auth.config.RsaKeyProperties;
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jose.JWSAlgorithm;
 import com.nimbusds.jose.JWSHeader;
