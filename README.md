@@ -3,7 +3,8 @@ There is a data.sql file in **/resources/** , use it to generate data in db
 
 ## To generate the private and public rsa key do
 
-First create a foldre inside resources named **certs** and navigate to it.
+1. First create a folder inside resources named **certs** and navigate to it.
+2. Generate the RSA Key pair
 ```bash
 openssl genrsa -out private.pem 2048
 ```
